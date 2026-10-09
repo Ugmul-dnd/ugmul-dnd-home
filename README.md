@@ -2,7 +2,7 @@
 
 Two static pages with shared styles and an illustrated fantasy identity.
 
-- `dist/index.html`: Fragments of the Fallen campaign introduction. The primer and proposed themes are explicitly draft content.
+- `dist/index.html`: Fragments of the Fallen player-facing introduction, Elaris's invitation/request, and the exact prophecy shared before the Silent Coin journey. Based on the Session 1 recap.
 - `dist/foundry.html`: Region and Spell Automation overview, quick start, starter-recipe examples, and resources, based on the local v0.5.7 documentation.
 - `dist/assets/`: original SVG illustrations; no image licensing dependency.
 - `dist/foundry.js`: illustrative token/Region interaction, not actual Foundry automation.
@@ -22,7 +22,7 @@ The `.openai/hosting.json` file records the private Sites preview identity. It i
 ## Content to finish
 
 1. Confirm the campaign name: the existing project uses **Fragments of the Fallen**; the original website request used **A Fragment of the Fallen**.
-2. Write and approve the spoiler-free campaign pitch, themes, setting overview, character hooks, and table details.
+2. Review the campaign introduction and invitation adaptation. The prophecy follows the Session 1 recap verbatim; later campaign reveals are excluded.
 3. Verify the module repository is public and release assets are available before presenting an installation link. Resource URLs currently come from the local module manifest/docs.
 4. Add actual module screenshots or gameplay footage to complement the conceptual illustration.
 
