@@ -14,3 +14,5 @@
 .save-quote span{display:block;font:12px/1.7 var(--sans);color:var(--gold);margin-top:9px}
 @media(max-width:900px){.overview-feature{gap:35px;grid-template-columns:1fr 1.5fr}.overview-label h3{font-size:31px}}
 @media(max-width:650px){.overview-feature{grid-template-columns:1fr;gap:12px;padding:32px 0}.overview-label p{max-width:none}.overview-label h3{max-width:none}.overview-content{font-size:13px}}
+
+.module-intro>div{max-width:850px}
