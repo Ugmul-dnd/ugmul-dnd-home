@@ -27,3 +27,5 @@ The `.openai/hosting.json` file records the private Sites preview identity. It i
 4. Add actual module screenshots or gameplay footage to complement the conceptual illustration.
 
 Campaign and Foundry source projects were read for reference only. Their files were not modified or bundled.
+
+Elaris's invitation letter on the campaign page is newly reconstructed website copy based on his established voice and the DM's requested invitation details; it is not recovered original campaign text.
