@@ -3,7 +3,7 @@
 Two static pages with shared styles and an illustrated fantasy identity.
 
 - `dist/index.html`: Fragments of the Fallen campaign introduction. The primer and proposed themes are explicitly draft content.
-- `dist/foundry.html`: Region Spell Automation overview, quick start, starter-recipe examples, and resources, based on the local v0.5.7 documentation.
+- `dist/foundry.html`: Region and Spell Automation overview, quick start, starter-recipe examples, and resources, based on the local v0.5.7 documentation.
 - `dist/assets/`: original SVG illustrations; no image licensing dependency.
 - `dist/foundry.js`: illustrative token/Region interaction, not actual Foundry automation.
 
