@@ -21,3 +21,4 @@
 .module-demo{margin:35px 0}.module-demo img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:4px}.module-demo figcaption{font-size:12px;color:var(--muted);margin-top:14px}
 
 .hud-demo{max-width:370px}.hud-demo img{width:100%}
+.region-walkthrough{display:flex;flex-wrap:wrap;align-items:flex-start;gap:24px;margin:35px 0}.region-walkthrough .module-demo{margin:0;max-width:100%;flex:none}.region-walkthrough .module-demo:nth-child(1){width:381px}.region-walkthrough .module-demo:nth-child(2){width:214.5px}.region-walkthrough .module-demo:nth-child(3){width:358px}.region-walkthrough figcaption{line-height:1.6}@media(max-width:650px){.region-walkthrough{gap:28px}.region-walkthrough .module-demo{width:100%;max-width:381px}}
