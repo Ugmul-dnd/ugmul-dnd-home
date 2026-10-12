@@ -26,3 +26,4 @@
 .options-demo{width:387.5px;max-width:100%}
 
 .aoe-demo{width:511px;max-width:100%}
+.settings-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,387.5px);gap:32px;align-items:start}.settings-layout .options-demo{margin:0;width:100%}.settings-copy>p:first-child{margin-top:0}@media(max-width:760px){.settings-layout{grid-template-columns:1fr}.settings-layout .options-demo{max-width:387.5px}}
