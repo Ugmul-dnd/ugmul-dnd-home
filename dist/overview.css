@@ -35,3 +35,5 @@
 
 .graze-demo{width:319px;max-width:100%}
 .guide-sticky-nav{position:sticky;top:0;z-index:20;background:#111a1e;border-bottom:1px solid var(--line);box-shadow:0 8px 20px #0003}.guide-sticky-nav .guide-jumps{padding-top:15px;padding-bottom:15px}.guide-section,[id="critical-damage"],[id="concentration-hud"],[id="graze-example"]{scroll-margin-top:130px}@media(max-width:650px){.guide-sticky-nav .subnav .wrap,.guide-sticky-nav .guide-jumps{flex-wrap:nowrap;overflow-x:auto;white-space:nowrap;gap:20px}.guide-sticky-nav .guide-jumps a{flex:none}}
+
+.release-shot{width:320px;max-width:100%}.release-shot-pair{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start}
