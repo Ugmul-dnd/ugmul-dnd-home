@@ -4,7 +4,7 @@ if (menu) {
   let pending = false;
   function update() {
     pending = false;
-    const boundary = document.querySelector('.guide-sticky-nav').getBoundingClientRect().bottom + 40;
+    const boundary = document.querySelector('.guide-sticky-nav').getBoundingClientRect().bottom + 160;
     let active = entries[0];
     for (const entry of entries) {
       if (entry.section.getBoundingClientRect().top <= boundary) active = entry;
