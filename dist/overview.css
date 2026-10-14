@@ -39,3 +39,4 @@
 .release-shot{width:320px;max-width:100%}.release-shot-pair{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start}
 
 .overview-feature{scroll-margin-top:155px}.guide-sticky-nav .guide-jumps{font-size:12px}
+.guide-jumps a{border-bottom:2px solid transparent;padding-bottom:5px}.guide-jumps a.is-current{color:var(--paper);border-bottom-color:var(--gold);text-shadow:0 0 12px #c5a76e55}
