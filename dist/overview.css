@@ -77,3 +77,62 @@
 .class-menu.is-open .class-menu-links,.class-menu:not(.is-dismissed):hover .class-menu-links,.class-menu:not(.is-dismissed):focus-within .class-menu-links{display:flex;flex-direction:column;gap:0}
 .class-menu-links a{display:block;padding:9px 12px;color:var(--gold);border:0!important;text-decoration:none;white-space:nowrap}
 .class-menu-links a:hover,.class-menu-links a:focus-visible{background:#c5a76e16;color:var(--paper)}
+
+/* Native-size Barbarian configuration examples. */
+.barbarian-examples{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin:30px 0}.barbarian-examples .module-demo{margin:0;min-width:0;max-width:410px}.barbarian-examples img{width:auto;max-width:100%;height:auto}.barbarian-examples a{display:block;width:fit-content;max-width:100%}.barbarian-examples figcaption{line-height:1.65}.barbarian-examples figcaption strong{color:var(--paper)}@media(max-width:650px){.barbarian-examples{grid-template-columns:1fr}}
+
+.barbarian-highlight{border-left:3px solid var(--gold);background:rgba(195,160,95,.07);padding:18px 22px;margin:22px 0 28px}.barbarian-highlight p{margin:0;line-height:1.8}.barbarian-highlight strong{color:var(--paper)}
+
+/* Barbarian text with ordered configuration screenshots alongside. */
+.barbarian-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,410px);gap:36px;align-items:start}.barbarian-copy{min-width:0}.barbarian-layout .barbarian-examples{display:flex;flex-direction:column;gap:30px;margin:22px 0 0;min-width:0}.barbarian-layout .barbarian-examples .module-demo{width:100%;max-width:410px}@media(max-width:900px){.barbarian-layout{grid-template-columns:1fr;gap:12px}.barbarian-layout .barbarian-examples{margin-top:10px}}
+
+/* Bard roll-card examples alongside the feature guide. */
+.bard-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,310px);gap:36px;align-items:start}.bard-copy{min-width:0}.bard-highlight{border-left:3px solid var(--gold);background:rgba(195,160,95,.07);padding:18px 22px;margin:22px 0 28px}.bard-highlight p{margin:0;line-height:1.8}.bard-highlight strong{color:var(--paper)}.bard-examples{display:flex;flex-direction:column;gap:30px;margin:22px 0 0;min-width:0}.bard-examples .module-demo{margin:0;max-width:310px;min-width:0}.bard-examples img{width:auto;max-width:100%;height:auto}.bard-examples a{display:block;width:fit-content;max-width:100%}.bard-examples figcaption{line-height:1.65}.bard-examples figcaption strong{color:var(--paper)}@media(max-width:900px){.bard-layout{grid-template-columns:1fr;gap:12px}.bard-examples{margin-top:10px}}
+
+/* Battle Master maneuver configuration alongside feature details. */
+.battle-master-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,402px);gap:36px;align-items:start}.battle-master-copy{min-width:0}.battle-master-highlight{border-left:3px solid var(--gold);background:rgba(195,160,95,.07);padding:18px 22px;margin:22px 0 28px}.battle-master-highlight p{margin:0;line-height:1.8}.battle-master-highlight strong{color:var(--paper)}.battle-master-examples{margin:22px 0 0;min-width:0}.battle-master-examples .module-demo{margin:0;max-width:402px}.battle-master-examples img{width:auto;max-width:100%;height:auto}.battle-master-examples a{display:block;width:fit-content;max-width:100%}.battle-master-examples figcaption{line-height:1.65}.battle-master-examples figcaption strong{color:var(--paper)}@media(max-width:900px){.battle-master-layout{grid-template-columns:1fr;gap:12px}.battle-master-examples{margin-top:10px}}
+
+/* Monk and Grappler configuration examples. */
+.monk-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,402px);gap:36px;align-items:start}.monk-copy{min-width:0}.monk-highlight{border-left:3px solid var(--gold);background:rgba(195,160,95,.07);padding:18px 22px;margin:22px 0 28px}.monk-highlight p{margin:0;line-height:1.8}.monk-highlight strong{color:var(--paper)}.monk-examples{margin:22px 0 0;min-width:0}.monk-examples .module-demo{margin:0;max-width:402px}.monk-examples img{width:auto;max-width:100%;height:auto}.monk-examples a{display:block;width:fit-content;max-width:100%}.monk-examples figcaption{line-height:1.65}.monk-examples figcaption strong{color:var(--paper)}@media(max-width:900px){.monk-layout{grid-template-columns:1fr;gap:12px}.monk-examples{margin-top:10px}}
+
+.battle-master-examples .module-demo + .module-demo{margin-top:30px}
+
+/* Paladin damage configuration alongside feature details. */
+.paladin-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,400px);gap:36px;align-items:start}.paladin-copy{min-width:0}.paladin-highlight{border-left:3px solid var(--gold);background:rgba(195,160,95,.07);padding:18px 22px;margin:22px 0 28px}.paladin-highlight p{margin:0;line-height:1.8}.paladin-highlight strong{color:var(--paper)}.paladin-examples{margin:22px 0 0;min-width:0}.paladin-examples .module-demo{margin:0;max-width:400px}.paladin-examples img{width:auto;max-width:100%;height:auto}.paladin-examples a{display:block;width:fit-content;max-width:100%}.paladin-examples figcaption{line-height:1.65}.paladin-examples figcaption strong{color:var(--paper)}@media(max-width:900px){.paladin-layout{grid-template-columns:1fr;gap:12px}.paladin-examples{margin-top:10px}}
+
+/* Ranger damage riders alongside feature details. */
+.ranger-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,394px);gap:36px;align-items:start}.ranger-copy{min-width:0}.ranger-highlight{border-left:3px solid var(--gold);background:rgba(195,160,95,.07);padding:18px 22px;margin:22px 0 28px}.ranger-highlight p{margin:0;line-height:1.8}.ranger-highlight strong{color:var(--paper)}.ranger-examples{margin:22px 0 0;min-width:0}.ranger-examples .module-demo{margin:0;max-width:394px}.ranger-examples img{width:auto;max-width:100%;height:auto}.ranger-examples a{display:block;width:fit-content;max-width:100%}.ranger-examples figcaption{line-height:1.65}.ranger-examples figcaption strong{color:var(--paper)}@media(max-width:900px){.ranger-layout{grid-template-columns:1fr;gap:12px}.ranger-examples{margin-top:10px}}
+
+/* Sorcerer cast-time Metamagic example alongside feature details. */
+.sorcerer-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,421px);gap:36px;align-items:start}.sorcerer-copy{min-width:0}.sorcerer-highlight{border-left:3px solid var(--gold);background:rgba(195,160,95,.07);padding:18px 22px;margin:22px 0 28px}.sorcerer-highlight p{margin:0;line-height:1.8}.sorcerer-highlight strong{color:var(--paper)}.sorcerer-examples{margin:22px 0 0;min-width:0}.sorcerer-examples .module-demo{margin:0;max-width:421px}.sorcerer-examples img{width:auto;max-width:100%;height:auto}.sorcerer-examples a{display:block;width:fit-content;max-width:100%}.sorcerer-examples figcaption{line-height:1.65}.sorcerer-examples figcaption strong{color:var(--paper)}@media(max-width:900px){.sorcerer-layout{grid-template-columns:1fr;gap:12px}.sorcerer-examples{margin-top:10px}}
+
+.sorcerer-examples .module-demo + .module-demo{margin-top:30px}
+
+.sorcerer-empowered-examples{display:flex;flex-direction:column;align-items:flex-start;gap:28px;margin-top:28px;min-width:0}.sorcerer-empowered-examples .module-demo{margin:0;max-width:100%}.sorcerer-empowered-examples a{display:block;width:fit-content;max-width:100%}.sorcerer-empowered-examples img{width:auto;max-width:100%;height:auto}.sorcerer-empowered-examples figcaption{max-width:460px;line-height:1.65}
+
+/* Empowered Spell: card on the left, dice picker on the right. */
+.sorcerer-empowered-examples{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);gap:20px;align-items:start}.sorcerer-empowered-examples .module-demo{min-width:0;width:100%}@media(max-width:650px){.sorcerer-empowered-examples{grid-template-columns:1fr}}
+
+/* Shield reaction example beside the spell helper text. */
+.shield-guide-item{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,311px);gap:30px;align-items:start;margin:20px 0 30px}.shield-guide-copy{min-width:0}.shield-guide-item .shield-example{margin:0;max-width:311px}.shield-example a{display:block;width:fit-content;max-width:100%}.shield-example img{width:auto;max-width:100%;height:auto}.shield-example figcaption{line-height:1.65}@media(max-width:750px){.shield-guide-item{grid-template-columns:1fr}}
+
+/* Consistent chat-card examples for Rolls & Saves. */
+.gm-card-example-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,300px);gap:32px;align-items:start;margin-top:18px}.gm-card-example-layout>div{min-width:0}.gm-card-example-layout .gm-card-example{margin:0;max-width:300px}.gm-card-example a{display:block;max-width:100%;width:fit-content}.gm-card-example img{width:auto;max-width:100%;height:auto}.gm-card-example figcaption{line-height:1.65}@media(max-width:750px){.gm-card-example-layout{grid-template-columns:1fr;gap:16px}}
+
+.gm-mode-examples{display:flex;flex-direction:column;gap:26px;min-width:0}
+
+/* Attack and save mode examples below their shared explanation. */
+.gm-mode-example-layout{margin-top:18px}.gm-mode-example-layout .gm-mode-examples{display:grid;grid-template-columns:repeat(2,minmax(0,300px));gap:28px;align-items:start;margin-top:24px}.gm-mode-example-layout .gm-card-example{margin:0;width:100%;max-width:300px}@media(max-width:650px){.gm-mode-example-layout .gm-mode-examples{grid-template-columns:minmax(0,300px)}}
+
+/* Region configuration screenshot beside its explanation. */
+.region-config-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,358px);gap:36px;align-items:start;margin-top:24px}.region-config-copy{min-width:0}.region-config-layout .region-config-example{margin:0;max-width:358px}.region-config-example img{width:auto;max-width:100%;height:auto}@media(max-width:850px){.region-config-layout{grid-template-columns:1fr;gap:22px}}
+
+/* Compact feature summary spacing and vertically centered descriptions. */
+.feature-summary-page #summary{border-bottom:0;padding-bottom:20px}.feature-summary-page #overview{padding-top:0}.feature-summary-page #overview .overview-features{margin-top:0}.feature-summary-page #overview .overview-feature:first-child{border-top:0}.feature-summary-page #overview .overview-content{align-self:center}.feature-summary-page #overview .overview-content>p:first-child{margin-top:0}.feature-summary-page #overview .overview-content>p:last-child{margin-bottom:0}
+
+/* Align descriptions below each number and category label. */
+@media(min-width:651px){.feature-summary-page #overview .overview-feature{grid-template-rows:auto auto 1fr;row-gap:0}.feature-summary-page #overview .overview-label{display:contents}.feature-summary-page #overview .overview-label .roman{grid-column:1;grid-row:1}.feature-summary-page #overview .overview-label .eyebrow{grid-column:1;grid-row:2}.feature-summary-page #overview .overview-label h3{grid-column:1;grid-row:3}.feature-summary-page #overview .overview-content{grid-column:2;grid-row:3;align-self:start}}
+.feature-summary-page #overview{padding-bottom:0}.feature-summary-page #compatibility{border-top:1px solid var(--line);padding-top:48px}
+
+/* Roman numeral, rule and category share one line. */
+.feature-summary-page .overview-category{display:flex;align-items:center;gap:12px;margin-bottom:20px}.feature-summary-page .overview-category .roman{margin:0;flex:none}.feature-summary-page .overview-category .eyebrow{margin:0;min-width:0}@media(min-width:651px){.feature-summary-page #overview .overview-feature{grid-template-rows:auto 1fr}.feature-summary-page #overview .overview-category{grid-column:1;grid-row:1}.feature-summary-page #overview .overview-label h3{grid-row:2}.feature-summary-page #overview .overview-content{grid-row:2}}
