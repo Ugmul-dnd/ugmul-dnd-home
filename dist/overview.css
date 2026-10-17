@@ -136,3 +136,9 @@
 
 /* Roman numeral, rule and category share one line. */
 .feature-summary-page .overview-category{display:flex;align-items:center;gap:12px;margin-bottom:20px}.feature-summary-page .overview-category .roman{margin:0;flex:none}.feature-summary-page .overview-category .eyebrow{margin:0;min-width:0}@media(min-width:651px){.feature-summary-page #overview .overview-feature{grid-template-rows:auto 1fr}.feature-summary-page #overview .overview-category{grid-column:1;grid-row:1}.feature-summary-page #overview .overview-label h3{grid-row:2}.feature-summary-page #overview .overview-content{grid-row:2}}
+
+/* One compact introduction: title, versions, then the summary. */
+.feature-summary-page .summary-intro{padding-top:48px;padding-bottom:32px}.feature-summary-page .summary-intro h1{margin:0 0 18px}.feature-summary-page .summary-intro .tags{margin-top:0}.feature-summary-page .summary-intro h2{margin-top:32px;margin-bottom:20px}.feature-summary-page .summary-intro p{max-width:760px;margin-bottom:0}
+
+/* Bring the integrations section closer to the Foundry / Misc introduction. */
+.foundry-misc-page .module-hero#summary{padding-bottom:28px}.foundry-misc-page #integrations{padding-top:28px}
