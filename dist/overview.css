@@ -142,3 +142,6 @@
 
 /* Bring the integrations section closer to the Foundry / Misc introduction. */
 .foundry-misc-page .module-hero#summary{padding-bottom:28px}.foundry-misc-page #integrations{padding-top:28px}
+
+/* Separate paragraphs in the Feature Summary introduction. */
+.feature-summary-page .summary-intro p+p{margin-top:20px}

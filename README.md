@@ -3,7 +3,7 @@
 Static campaign and Foundry module pages with shared styles and an illustrated fantasy identity.
 
 - `dist/index.html`: Fragments of the Fallen player-facing introduction, Elaris's invitation/request, and the exact prophecy shared before the Silent Coin journey. Based on the Session 1 recap.
-- `dist/foundry.html`: Ugmuls 5.5e Automation overview, quick start, starter-recipe examples, and resources, updated for v0.7.3 character creation, Bard, Barbarian, and combat workflow automation.
+- `dist/foundry.html`: Ugmuls 5.5e Automation overview, quick start, starter-recipe examples, and resources, updated for v0.8.0 libraries, spell areas, monster effects, class tools and table control.
 - `dist/assets/`: original SVG illustrations; no image licensing dependency.
 - `dist/foundry-how-to.html`: Class Features & Spells, the default Detailed Summary page.
 - `dist/foundry-gm-automation.html`: Regions, targeting, rolls/saves, NPC damage/healing, and combat tracking.
