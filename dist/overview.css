@@ -145,3 +145,8 @@
 
 /* Separate paragraphs in the Feature Summary introduction. */
 .feature-summary-page .summary-intro p+p{margin-top:20px}
+
+/* Class guide additions for v0.8.2. */
+.class-feature-group{margin-top:28px;scroll-margin-top:100px}.class-feature-group h4{font:24px var(--serif);color:var(--paper);margin:0 0 14px}.class-feature-group li+li{margin-top:10px}
+
+.class-feature-links{display:flex;flex-wrap:wrap;gap:8px 18px;margin:0 0 22px;font-size:13px}.class-feature-links a{color:var(--gold);text-decoration:none}.class-feature-links a:hover{text-decoration:underline;text-underline-offset:4px}
