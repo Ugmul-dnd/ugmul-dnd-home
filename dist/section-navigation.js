@@ -11,7 +11,8 @@ if (menu) {
     }
     if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) active = entries.at(-1);
     for (const entry of entries) {
-      const selected = entry === active;
+      const classGroup=entry.link.closest('.class-menu');
+      const selected = entry === active || (entry.link.classList.contains('class-menu-trigger') && classGroup && active?.link.closest('.class-menu') === classGroup);
       entry.link.classList.toggle('is-current', selected);
       if (selected) entry.link.setAttribute('aria-current', 'location');
       else entry.link.removeAttribute('aria-current');
