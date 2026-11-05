@@ -3,3 +3,5 @@ node_modules/
 site-source.tar.gz
 website.zip
 *.log
+
+outputs/
