@@ -4,6 +4,11 @@ Static campaign and Foundry module pages. The complete website lives in `dist/`;
 
 ## Module pages
 
+- `dist/foundry-modules.html`: directory for the two independently installable modules.
+- `dist/character-workshop.html`: Character Workshop v0.2.0 Beta overview and limitations.
+- `dist/character-workshop-guide.html`: import workflow, source replacement, and final review.
+- `dist/character-workshop-resources.html`: installation, requirements, release notes, and support.
+
 - `dist/foundry.html`: v1.0.0 overview, tabletop workflow, and installation information.
 - `dist/foundry-how-to.html`: class features and the entry point for the Detailed Summary.
 - `dist/foundry-feats-spells.html`: feats, weapon masteries, spells, and supported item features.

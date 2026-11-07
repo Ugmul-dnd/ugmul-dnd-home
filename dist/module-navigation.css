@@ -1,0 +1,26 @@
+/* Shared module navigation and directory; inherits the site's existing palette. */
+.module-switcher{border-bottom:1px solid var(--line);background:var(--ink2)}
+.module-switcher .wrap{display:flex;gap:34px;align-items:center;flex-wrap:wrap}
+.module-switcher a{display:inline-flex;align-items:center;gap:9px;padding:15px 0;font-size:12px;color:var(--muted);border-bottom:2px solid transparent}
+.module-switcher a[aria-current],.module-switcher a:hover{color:var(--gold);border-bottom-color:var(--gold)}
+.module-switcher a:focus-visible,.module-card a:focus-visible{outline:2px solid var(--gold);outline-offset:5px}
+.module-beta{display:inline-block;font:600 9px/1.4 var(--sans);text-transform:uppercase;letter-spacing:1px;padding:3px 6px;border:1px solid #c5a76e70;color:var(--gold);vertical-align:middle}
+.module-hub .module-hero{padding-bottom:25px}
+.modules-lead{max-width:760px;color:var(--muted);line-height:1.8;font-size:16px}
+.module-directory{padding-top:30px}
+.module-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}
+.module-card{padding:36px;border:1px solid var(--line);border-top:2px solid var(--gold);background:#ffffff02;display:flex;flex-direction:column}
+.module-card-top{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:26px;flex-wrap:wrap}
+.module-card-top .eyebrow{margin:0;font-size:9px;letter-spacing:1.5px}
+.version-label{font:12px var(--sans);color:var(--gold);white-space:nowrap}
+.module-card h2{font-size:52px;line-height:1.02;margin-bottom:22px}
+.module-card p,.module-card li{color:var(--muted);font-size:14px;line-height:1.8}
+.module-card ul{padding-left:18px;margin:12px 0 30px}
+.module-card-actions{margin-top:auto;display:flex;align-items:flex-start;flex-direction:column;gap:18px}
+.module-card .button{font-size:11px;max-width:100%;box-sizing:border-box}
+.manifest-url{display:block;padding:20px;border:1px solid var(--line);overflow-wrap:anywhere;user-select:all;font-size:13px;color:var(--paper)}
+.character-workshop-page .guide-section p{max-width:900px}
+@media(max-width:800px){.module-cards{grid-template-columns:1fr}.module-card h2{font-size:44px}}
+@media(max-width:650px){.module-switcher .wrap{gap:20px}.module-switcher a{font-size:11px;padding:13px 0}.module-card{padding:26px}.module-card-top{gap:10px}.modules-lead{font-size:14px}.module-beta{font-size:8px}.manifest-url{padding:14px;font-size:11px}}
+
+.character-number-example{margin:28px 0;max-width:720px}.character-number-example img{display:block;max-width:100%;height:auto;border:1px solid var(--line);border-radius:6px}.character-number-example figcaption{margin-top:14px;color:var(--muted);font-size:14px;line-height:1.8}
