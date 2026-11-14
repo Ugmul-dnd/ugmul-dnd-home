@@ -150,3 +150,21 @@
 .class-feature-group{margin-top:28px;scroll-margin-top:100px}.class-feature-group h4{font:24px var(--serif);color:var(--paper);margin:0 0 14px}.class-feature-group li+li{margin-top:10px}
 
 .class-feature-links{display:flex;flex-wrap:wrap;gap:8px 18px;margin:0 0 22px;font-size:13px}.class-feature-links a{color:var(--gold);text-decoration:none}.class-feature-links a:hover{text-decoration:underline;text-underline-offset:4px}
+
+/* v1.1.0: original Foundry screenshots, kept readable at their native scale. */
+.card-showcase{border-top:1px solid var(--line)}
+.card-showcase-heading{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;margin-bottom:48px}
+.card-showcase-heading h2{margin-bottom:0}
+.card-showcase-heading p,.card-showcase-grid p{color:var(--muted)}
+.card-showcase-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px;align-items:start}
+.card-showcase-grid figure{margin:0;min-width:0}
+.card-showcase-grid figcaption{min-height:205px}
+.card-showcase-grid h3{font:30px/1.15 var(--serif);margin:14px 0}
+.card-showcase-grid p{font-size:14px;line-height:1.7}
+.card-showcase-grid a{display:block;width:fit-content;max-width:100%;border-radius:5px}
+.card-showcase-grid a:focus-visible{outline:2px solid var(--gold);outline-offset:6px}
+.card-showcase-grid img{display:block;max-width:100%;width:auto;height:auto;border:1px solid var(--line);border-radius:5px;box-shadow:0 16px 35px #0004}
+.card-showcase-note{max-width:740px;margin:36px 0 0;color:var(--muted);font-size:13px;line-height:1.7}
+.release-back{padding-top:28px}
+@media(max-width:900px){.card-showcase-heading{gap:30px}.card-showcase-grid{gap:22px}.card-showcase-grid figcaption{min-height:235px}}
+@media(max-width:650px){.card-showcase-heading{grid-template-columns:1fr;gap:16px;margin-bottom:32px}.card-showcase-grid{grid-template-columns:1fr;gap:42px}.card-showcase-grid figcaption{min-height:0;max-width:420px;margin-bottom:22px}.card-showcase-grid img{max-width:min(100%,326px)}}

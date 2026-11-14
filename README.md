@@ -9,12 +9,13 @@ Static campaign and Foundry module pages. The complete website lives in `dist/`;
 - `dist/character-workshop-guide.html`: import workflow, source replacement, and final review.
 - `dist/character-workshop-resources.html`: installation, requirements, release notes, and support.
 
-- `dist/foundry.html`: v1.0.0 overview, tabletop workflow, and installation information.
+- `dist/foundry.html`: v1.1.0 overview, tabletop workflow, and installation information.
 - `dist/foundry-how-to.html`: class features and the entry point for the Detailed Summary.
 - `dist/foundry-feats-spells.html`: feats, weapon masteries, spells, and supported item features.
 - `dist/foundry-gm-automation.html`: Regions, Automated Effects, rolls, reactions, application controls, and legendary-action reminders.
 - `dist/foundry-misc-automation.html`: character creation, equipment choices, spell tools, settings, and chat controls.
 - `dist/foundry-resources.html`: installation, dependencies, compatibility, and project resources.
+- `dist/foundry-release-1.1.0.html`: simplified-card screenshots and PHB 3.0.0 update highlights.
 - `dist/foundry-release-*.html`: historical release notes. The former latest-features URL redirects to the Detailed Summary.
 
 The campaign remains in `dist/index.html`. Module website updates should preserve its content.
